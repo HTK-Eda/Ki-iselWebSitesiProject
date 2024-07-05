@@ -1,0 +1,57 @@
+body{
+    /*kenarlıklar sıfırlandı*/
+    margin:0;
+    padding:0;
+    background: url(gorsel.jpg);
+    background-size: cover;
+}
+.box{
+    width:450px;
+    background-color:rgb(185, 67, 67);
+    padding:40px;
+    text-align: center;
+    margin:auto;
+    margin-top:5%;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box img{
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    transition: 0.5s; /*Bu sayede hover ile gelen hızlılığı azalttık*/
+    cursor:pointer;
+}
+.box img:hover{
+     transform:scale(0.9);
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing:  4px; /*Harf arasındaki boşluk*/
+    font-weight: 100;  /*Kalınlık*/
+}
+.box h5{
+    font-size: 20px;
+    font-weight:100; 
+    letter-spacing: 3px;
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+.box li{
+    display:inline-block; /*Simgeler yan yana oldu*/
+    margin:6px; /*Simgelerin aralarını açtı*/
+    list-style:none;
+}
+.box li a{
+    color:white;
+    font-size:60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color:#b9b9b9; 
+}
